@@ -4,22 +4,19 @@
 /**
  * main - prints numbers from 0 to 9
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 
 int main(void)
 {
-	char y;
+	char i;
 
-	for (y = 'a'; y <= 'z'; y++)
-
+	for (i = 0; i < 10; i++)
 	{
-	if (y != 'e' && y != 'q')
-	putchar(y);
+	printf("%d", i);
 	}
 
 	putchar('\n');
 
 	return (0);
 }
-
